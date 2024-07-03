@@ -11,7 +11,7 @@ class TextNode:
         self.text = text
         self.text_type = text_type
         self.url = url
-    def __eg__(self, node):
+    def __eq__(self, node):
         return (
             node.text == self.text 
             and node.text_type == self.text_type 
